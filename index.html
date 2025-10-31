@@ -1056,7 +1056,7 @@
                 { type: "J/P", text: "Are you?", options: ["organised", "spontaneous"] },
                 { type: "T/F", text: "In work situations do you?", options: ["give orders", "get everyone to find solutions"] },
                 { type: "S/N", text: "Do you prefer?", options: ["sensible /factual people", "people who explore options"] },
-                { type: "J/P", "text": "Do you prefer to?", "options": ["work to deadlines", "work whenever"] },
+                { type: "J/P", text: "Do you prefer to?", options: ["work to deadlines", "work whenever"] },
                 { type: "S/N", text: "Which do you consider best?", options: ["ability to follow a plan", "adapt and adjust plans"] },
                 { type: "E/I", text: "Are you?", options: ["a social person", "a private person"] },
                 { type: "T/F", text: "Which are you?", options: ["a logical person", "a feeling person"] },
@@ -1115,16 +1115,16 @@
                 'P': 'Perceiving'
             };
 
-            // --- START MODIFICATION: Updated Definitions ---
+            // --- START MODIFICATION: Updated Definitions (Jung) ---
             const letterDescriptions = {
-                'E': `Extrovert: Psychic energy (libido) flows outward. Motivation and reality are drawn from the external, objective world of people, events, and things.`,
                 'I': `Introvert: Psychic energy (libido) flows inward. Motivation and understanding are drawn from the internal, subjective world. The inner reality is the primary guide.`,
+                'E': `Extrovert: Psychic energy (libido) flows outward. Motivation and reality are drawn from the external, objective world of people, events, and things.`,
                 'S': `Sensation: The psychological function that perceives physical stimuli. It establishes what is real and present through the senses, focusing on concrete facts and details.`,
                 'N': `Intuition: The psychological function that perceives possibilities, meanings, and relationships via the unconscious. It sees the "big picture" and what could be.`,
                 'T': `Thinking: The rational, judging function that analyzes information logically, impersonally, and objectively. It seeks to understand by building a structure of "truth."`,
                 'F': `Feeling: The rational, judging function that assesses the value of things. It makes decisions based on subjective, personal, and relational values (e.g., good/bad, pleasant/unpleasant).`,
-                'J': `Judging (MBTI): Note: This is an MBTI concept. A preference for decisiveness, planning, and order. The external world is regulated by using the judging functions (Thinking/Feeling).`,
-                'P': `Perceiving (MBTI): Note: This is an MBTI concept. A preference for flexibility, spontaneity, and openness. The external world is engaged by using the perceiving functions (Sensation/Intuition).`
+                'J': `Judging: The process of making conclusions using the rational functions (Thinking/Feeling). It is the act of organizing, evaluating, and deciding upon perceived information.`,
+                'P': `Perceiving: The process of gathering information using the irrational functions (Sensation/Intuition). It is the act of experiencing the world without immediate evaluation.`
             };
 
             const personalityDescriptions = {
@@ -1595,7 +1595,7 @@
                                 ticks: {
                                     font: {
                                         family: 'Poppins',
-                                        size: 14,
+                                                                        size: 14,
                                         weight: '600'
                                     },
                                     color: '#2c3e50'
